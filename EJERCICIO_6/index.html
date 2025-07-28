@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="contenido">
+        <div class="content">
+            <div class="box">
+                <div class="title">
+                    <h1>Conversion de Moneda</h1>
+                </div>
+            </div>
+            <div class="values1">
+                <label for="input_dolar">Dolares: </label>
+                <input type="text" class="input_dolar" id="input_dolar">
+                <br><br>
+                <label for="input_change">Tipo de Cambio: </label>
+                <input type="text" class="input_change" id="input_change">
+                <button class="btn" onclick="change()">Cambio</button>
+                <br><br>
+            </div>
+            <div class="total">
+                <table>
+                    <tr>
+                        <th>Pesos Mexicanos: </th>
+                        <td id="tot">-</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/file.js"></script>
+</html>

@@ -1,0 +1,30 @@
+*{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content{
+    display: grid;
+    place-items: center;
+}
+
+.contenido{
+    margin-top: 10vw;
+    padding: 25px;
+    background-color: darksalmon;
+    width: 500px;
+    height: 150px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+.input_box1{
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.boton{
+    background-color: cornsilk;
+    border: 1px solid black;
+    border-radius: 5px;
+}

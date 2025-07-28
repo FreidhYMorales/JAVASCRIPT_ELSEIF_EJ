@@ -1,0 +1,56 @@
+*{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content{
+    display: grid;
+    place-items: center;
+}
+
+.calculator{
+    text-align: center;
+    background-color: forestgreen;
+    width: 500px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 25px;
+    margin-top: 50px;
+}
+
+.title{
+    background-color: forestgreen;
+}
+
+.data_input{
+    background-color: forestgreen;
+}
+
+.age{
+    background-color: forestgreen;
+}
+
+.age_value{
+    text-align: center;
+    background-color: forestgreen;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.button1{
+    background-color: darkslategray;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.result{
+    display: grid;
+    place-items: center;
+}
+
+.resulTable{
+    background-color: forestgreen;
+    width: 300px;
+    height: 20px;
+}

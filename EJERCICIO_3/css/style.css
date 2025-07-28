@@ -1,0 +1,48 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+.content{
+    display: grid;
+    place-items: center;
+    margin-top: 15vw;
+}
+
+.calculator{
+    background-color: cornsilk;
+    width: 500px;
+    height: 150px;
+    text-align: center;
+    border: 3px solid brown;
+    border-radius: 15px;
+}
+
+.titul{
+    background-color: cornsilk;
+}
+
+.ingreso{
+    background-color: cornsilk;
+}
+
+.numb{
+    background-color: cornsilk;
+}
+
+.number{
+    background-color: cornsilk;
+    border-radius: 7px;
+    text-align: center;
+    border: solid brown;
+}
+
+.boton{
+    background-color: cornsilk;
+    border-radius: 7px;
+    border: solid brown;
+}
+
+.result{
+    background-color: cornsilk;
+}

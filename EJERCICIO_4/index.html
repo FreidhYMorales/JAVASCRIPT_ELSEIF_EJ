@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 4</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="content">
+        <div class="calculator">
+            <div>
+                <h1 class="title">Categorizar Edades</h1>
+            </div>
+            <div class="data_input">
+                <label for="ageValue" class="age">Ingresar Edad: </label>
+                <input type="text" id="age_value" class="age_value">
+                <button onclick="ageName()" class="button1">Calcular</button>
+                <br><br>
+            </div>
+            <div class="result">
+                <table class="resulTable">
+                    <tr class="row1">
+                        <th class="case1">Categoria: </th>
+                        <td class="case1">
+                            <p id="age_nam" class="age_nam">-</p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/file.js"></script>
+</html>

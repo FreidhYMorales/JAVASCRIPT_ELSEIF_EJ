@@ -1,0 +1,24 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.cont{
+    display: grid;
+    place-items: center;
+    margin-top: 15vw;
+}
+
+.calculador{
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: beige;
+    width: 500px;
+    height: 150px;
+    padding: 25px;
+}
+
+.descuento{
+    display: inline-flex;
+}
