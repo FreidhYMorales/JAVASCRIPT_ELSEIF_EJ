@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="content">
+        <div class="contenido">
+            <div class="title">
+                <h1 class="titulo">Indice de Masa Corporal</h1>
+            </div>
+            <div class="inputs">
+                <label for="box_input1" class="weights">Peso (kg): </label>
+                <input type="text" id="weight" class="weight" placeholder="70">
+                <br><br>
+                <label for="box_input2" class="heights">Altura(m): </label>
+                <input type="text" id="height" class="height" placeholder="1.5">
+                <br><br>
+                <button onclick="imcCalc()" class="button1">Calcular</button>
+            </div>
+            <div class="totals">
+                <p class="tot">IMC: </p>
+                <p id="result">-</p>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/file.js"></script>
+</html>
