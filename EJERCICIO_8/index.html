@@ -13,7 +13,20 @@
                 <h1 class="titulo">Total de Factura</h1>
             </div>
             <div class="inputs">
-                <label for=""></label>
+                <label for="product_amount">Cantidad de Productos: </label>
+                <input type="text" id="product_amount" class="product_amount">
+                <br><br>
+                <label for="unit_price">Precio Unitario (Q): </label>
+                <input type="text" id="unit_price" class="unit_price">
+                <br><br>
+                <button onclick="tot()">Calcular</button>
+            </div>
+            <div class="totals">
+                <p>Total: </p>
+                <p id="total">-</p>
+            </div>
+            <div>
+                <p>*Iva Incluido (16%)</p>
             </div>
         </div>
     </div>
